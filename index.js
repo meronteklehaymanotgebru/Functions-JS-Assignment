@@ -1,8 +1,7 @@
 
 
 function sortAndFlip(words) {
-  
-        .map(word => word.split('').reverse().join('')) 
+  return words.map(word => word.split('').reverse().join('')) 
         .sort(); 
 }
 
