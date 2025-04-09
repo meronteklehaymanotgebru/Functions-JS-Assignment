@@ -18,8 +18,6 @@ function sortByPay(employees) {
     return [...employees].sort((a, b) => a.salary - b.salary);
 }
 
-console.log(sortByPay([400,200,100,20]))
-//[ 400, 200, 100, 20 ]
 function doubleAndLog(nums) {
     nums.forEach(num => console.log(num * 2));
 }
